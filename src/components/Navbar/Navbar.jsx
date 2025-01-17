@@ -57,7 +57,7 @@ const Navbar = () => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={logo} alt="logo" className="w-10" />
-              Shopsy
+              Bony Shop
             </a>
           </div>
           {/* search bar and order button */}
