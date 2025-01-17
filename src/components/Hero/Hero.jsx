@@ -37,6 +37,20 @@ const Hero = () => {
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 ">
             {/* text content part */}
+            <div>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl">
+                bony shop online shopping
+              </h1>
+              <p className="text-sm">
+                welcome to bony online shopping everything you need is available
+                in our shop
+              </p>
+              <div>
+                <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4">
+                  Order Now
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
