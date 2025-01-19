@@ -21,8 +21,9 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Products />
+
       <TopProducts />
+      <Products />
     </div>
   );
 };
