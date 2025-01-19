@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-// import { IoMdSearch } from "react-icons/io";
+import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
@@ -72,7 +72,7 @@ const Navbar = () => {
               duration-300 rounded-full border border-gray-300  px-2 py-1 focus:outline-none focus:border-red-100
               foucus:border-primary"
               />
-              {/* <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3 " /> */}
+              <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3 " />
             </div>
           </div>
           {/* order button */}
