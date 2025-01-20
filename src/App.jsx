@@ -5,6 +5,7 @@ import Products from "./components/Products/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TopProducts from "./components/TopProducts/TopProducts";
+import Banner from "./components/Banner/Banner";
 
 const App = () => {
   React.useEffect(() => {
@@ -21,9 +22,9 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-
       <TopProducts />
       <Products />
+      <Banner />
     </div>
   );
 };
